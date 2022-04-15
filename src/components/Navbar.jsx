@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="navbar">
       <header>
         <h2>
           <span>Clarusway</span> Web Design
