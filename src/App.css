@@ -1,0 +1,294 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    position: sticky;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    background-color: #35424A;
+    border-bottom: 3px solid #A94C6B;
+    padding: 0.5em;
+    height: 4em;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    font-size: small;
+}
+
+header ul li {
+    padding: 5px;
+    margin-left: 1em;
+}
+
+header ul li a:hover {
+    color: #A94C6B;
+}
+
+/* header .home, */
+header span {
+    color: #A94C6B;
+}
+
+header a {
+    text-decoration: none;
+    color: #F7F7EA;
+}
+
+/* section 1 */
+
+.section1 {
+    background-image: url(./assets/showcase.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.section1 h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+/* section2 */
+
+.section2 {
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+    padding: 1em;
+    color: white;
+}
+
+.section2 input {
+    height: 0.5em;
+    padding: 1em;
+    outline: none;
+
+    /* font-size: 0.5em; */
+}
+
+.section2 button {
+    height: 2.3em;
+    padding: 0.4em;
+    color: white;
+    background-color: orangered;
+    border: 4px solid orangered;
+}
+
+/* section3 */
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    /* height: 15em; */
+
+}
+@media screen and (max-width: 900px) {
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10rem;
+    
+}
+.section3-about{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 2rem;
+}
+
+.section3-services{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
+
+.section3 img {
+    height: 4em;
+
+    margin-bottom: 1em;
+}
+
+.section3 nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+}
+
+.section3 p {
+    text-align: center;
+}
+
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    background-color: #35424A;
+    height: 6em;
+    font-size: 0.9em;
+}
+
+footer p {
+    padding: 1em;
+}
+
+footer img {
+    height: 2em;
+    margin-bottom: 1.5em;
+}
+
+/* about */
+
+.section2-about,
+.section2-services {
+    padding: 0em 2.7em;
+    height: 5em;
+}
+
+.section3-about {
+    display: flex;
+    justify-content: space-between;
+    height: 30em;
+}
+
+
+
+.section3-about h4 {
+    margin-bottom: 1em;
+}
+
+.section3-about .nav1 {
+    margin: 2em;
+    padding: 1em;
+}
+
+.about-us-dark {
+    background-color: #35424A;
+    color: white;
+    padding: 1em;
+    margin-top: 0.5em;
+}
+
+.section3-about .nav2 {
+    background-color: #35424A;
+    color: white;
+    margin: 2em;
+    height: 10em;
+    padding: 1em;
+}
+
+/* services */
+
+.section3-services {
+    display: flex;
+    justify-content: space-between;
+    height: 30em;
+
+}
+
+.section3-services .nav1 {
+    padding: 1em;
+}
+
+.section3-services .nav1 h4 {
+    padding: 0.5em;
+}
+
+.section3-services .nav1 nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #E6E6E6;
+    height: 9em;
+    padding: 1em;
+    border: 1px solid white;
+    font-size: 14px;
+
+}
+
+.section3-services .nav2 {
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section3-services form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+    margin: 1em;
+    background-color: #35424A;
+    color: white;
+}
+
+.section3-services form h4 {
+    margin: 1em 0em;
+}
+
+.section3-services button {
+    width: 4em;
+    height: 2em;
+    color: white;
+    background-color: orangered;
+    margin-top: 0.5em;
+    cursor: pointer;
+}
+
+.section3-services input {
+    height: 2em;
+    outline: none;
+}
+
+.section3-services textarea {
+    outline: none;
+}
+
+.section3-services label {
+    margin: 0.5em 0em;
+}
+
+/* ---logo page ---- */
+
+.logoPage{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    margin: 0 10rem;
+}
+
+.logoPage img{
+    height: 10rem;
+}
