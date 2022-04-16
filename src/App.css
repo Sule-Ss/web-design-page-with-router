@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: red;
+}
+
 /* Navbar */
 
-.navbar{
+.navbar {
     display: unset
 }
 
@@ -34,11 +38,7 @@ header ul li {
     margin-left: 1em;
 }
 
-header ul li a:hover {
-    color: #A94C6B;
-}
-
-/* header .home, */
+/* header  */
 header span {
     color: #A94C6B;
 }
@@ -46,6 +46,10 @@ header span {
 header a {
     text-decoration: none;
     color: #F7F7EA;
+}
+
+.activeClass {
+    color: #A94C6B;
 }
 
 /* section 1 */
@@ -84,8 +88,6 @@ header a {
     height: 0.5em;
     padding: 1em;
     outline: none;
-
-    /* font-size: 0.5em; */
 }
 
 .section2 button {
@@ -103,28 +105,28 @@ header a {
     justify-content: space-between;
     align-items: center;
     color: black;
-    /* height: 15em; */
-
 }
+
 @media screen and (max-width: 900px) {
 
-.section3{
-    display: flex;
-    flex-direction: column;
-    margin: 0 10rem;
-    
-}
-.section3-about{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    margin: 2rem;
-}
+    .section3 {
+        display: flex;
+        flex-direction: column;
+        margin: 0 10rem;
 
-.section3-services{
-    display: flex;
-    flex-direction: column;
-}
+    }
+
+    .section3-about {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 2rem;
+    }
+
+    .section3-services {
+        display: flex;
+        flex-direction: column;
+    }
 
 
 }
@@ -158,8 +160,14 @@ footer {
     align-items: center;
     color: aliceblue;
     background-color: #35424A;
-    height: 6em;
     font-size: 0.9em;
+    margin-bottom: 0%;
+    height: 7rem;
+}
+
+.routesClass{
+    /* footer ı bottom a sabitlemek için */
+    min-height : calc(100vh - 7rem); 
 }
 
 footer p {
@@ -285,15 +293,15 @@ footer img {
 
 /* ---logo page ---- */
 
-.logoPage{
+.logoPage {
     display: flex;
     flex-direction: column;
-    align-items:center ;
+    align-items: center;
     min-height: 100vh;
     justify-content: space-evenly;
     margin: 0 10rem;
 }
 
-.logoPage img{
+.logoPage img {
     height: 10rem;
 }

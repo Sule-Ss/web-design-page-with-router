@@ -14,7 +14,7 @@ const AppRouter = () => {
     <>
       <BrowserRouter>
         <Navbar />
-        <div>
+        <div className="routesClass">
           <Routes>
             <Route path="/" element={<Home />} />
             {/* <Route path="/home" element={<Home />} /> */}
@@ -26,6 +26,7 @@ const AppRouter = () => {
             {/* <Route path="*" element={<Home />} /> */}
           </Routes>
         </div>
+
         <Footer />
       </BrowserRouter>
     </>
